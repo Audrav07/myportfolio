@@ -585,6 +585,8 @@ body > * {
 /*body > * {
   max-width: 100% !important;
 }*/
+
+
  .container {
     padding-top: 5px;
     padding-right: 0px;
@@ -2108,26 +2110,30 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); */
    /* background-color: #fff;*/
         background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #fff 4%, hsla(0, 0%, 100%, 0));
 
+
 }
 
 .top-bar__logo-text {
-    font-size: 13px;
-    font-weight: 900;
+    font-size:1em;
+    font-weight: bolder;
     letter-spacing: 3px;
-    /*word-spacing: 50px;*/
+/*    word-spacing: 50px;*/
 
      position: relative;
-  text-transform: capitalize;
-font-family: 'Roboto', sans-serif;
+/*  text-transform: uppercase;*/
+font-family: 'Open Sans', sans-serif;
+/*   font-family: 'Roboto', sans-serif;*/
 
 }
-.top-bar__logo-text-about {
-    font-size: 13px;
-    font-weight: 700;
+/*.top-bar__logo-text-about {
+    font-size: 1em;
+    font-weight: bolder;
     letter-spacing: 3px;
     left: 90px;
+position: relative;
+font-family: 'Open Sans', sans-serif;
 
-}
+}*/
 .top-bar {
     position: fixed;
     top: 0;
@@ -2160,7 +2166,7 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -2580,19 +2586,15 @@ overflow: hidden;
 
 .hold-slide-content{
     position: absolute;
-/*    position: relative;
-*/    /*left: 170px;*/
-  /*  top: 0%;*/
   left: 0px;
-  top:10%;
-/*  top: 6%;*/
+  top:0%;
+
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     width: 57%;
     height:100%;
-/*   height: 78.1%;*/
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2631,23 +2633,22 @@ overflow: hidden;
 
 .home-spacer-text{
     z-index:5000;
-/*    position: relative;*/
-    left: 10rem;
-   /* top:12rem;*/
+
+    left: 10em;
+    bottom:10em;
     margin-left: 150px;
-     margin-top: -200px;
-   /*font-family: 'Open Sans', sans-serif;*/
-/*font-family: 'Roboto', sans-serif;*/
+
     font-family: 'Playfair Display', sans-serif;
     color: #072933;
     font-size: 5.5em;
     line-height: 1.2em;
     font-weight: 800;
     letter-spacing: 1px;
+    height: 90%;
 
   /*   opacity: 5;*/
-/*    transform: translateX(0px) translateY(0px) translateZ(0px);
-*/  /*  transition: opacity 1500ms, transform 1500ms;*/
+    transform: translateX(0px) translateY(0px) translateZ(0px);
+  /*  transition: opacity 1500ms, transform 1500ms;*/
 }
 /*
 .home-spacer-text-name{
@@ -2688,7 +2689,9 @@ h3{
     letter-spacing: 1px;*/
 }
 .home-img {
-width: 85%;
+/*width: 85%;*/
+width: 100%; 
+height: auto;
   
 /*    max-width: 1000px;
     width:100%; */
@@ -2706,6 +2709,7 @@ width: 85%;
 /*    position: relative;
 */
 margin-left: 29%;
+/*margin-top: 45px;*/
 
 }
 
@@ -2770,7 +2774,10 @@ margin-left: 29%;
     text-transform: uppercase;
     color: #000;
     font-weight: 600;
-    font-family: 'Signika', sans-serif;
+/*    font-family: 'Signika', sans-serif;
+*/
+
+font-family: 'Open Sans', sans-serif;
 
 
 }
@@ -5109,32 +5116,55 @@ font-family: 'Roboto', sans-serif;
 
 
 @media (max-width: 479px) {
+
+.master-container{
+    margin-bottom: -200px;
+}
+    .watercolor-stroke{
+        margin-left: -20px;
+    }
+
+    .mountains-bg{
+        display: none;
+    }
+
+    .section--default{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        /*max-height: 50px;*/
+    }
     .heading{
         font-size: 2em;
     }
       .hold-slide-content{
-         /*width: 135px;*/
-         width: 100%;
+
+         width: 55%;
          padding-right: 24px;
 
-        /* height: 52%;
-         margin-left: -120px;
-    padding-right: 24px;*/
+  
     background-image: -webkit-linear-gradient(0deg, hsla(0, 0%, 100%, .71) 58%, hsla(0, 0%, 100%, 0));
     background-image: linear-gradient(90deg, hsla(0, 0%, 100%, .71) 58%, hsla(0, 0%, 100%, 0));
 
     }
      .home-img{
-        height: 49%;
+/*        height: 29%;
         margin-top: -20px;
-
+        width: 70%;*/
 
     }
 
+    .content-wrapper{
+        padding-top: 5px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
     .home-spacer-text{
-        font-size: 30px;
-        margin-left: 51px;
-        top: -3px;
+        font-size: 2em;
+        margin-left: 10px;
+        margin-top: -10em;
+
+      /*  top: 30px;*/
     }
     .master-container,.top-bar {
         padding-right:24px;
@@ -5192,8 +5222,9 @@ font-family: 'Roboto', sans-serif;
     }
 
     .home {
-        min-height: 400px;
+ /*       min-height: 400px;*/
         padding-bottom: 0;
+        margin-bottom: -400px;
     }
 
     .home-hero-spacer {
@@ -5326,7 +5357,7 @@ font-family: 'Roboto', sans-serif;
         justify-content: space-between
     }
 
-    .case-hero-bg {
+  /*  .case-hero-bg {
         max-height: 380px
     }
 
@@ -5338,8 +5369,8 @@ font-family: 'Roboto', sans-serif;
         margin-top: -330px;
         padding-top: 32px
     }
-
-    .eve-iphones {
+*/
+/*    .eve-iphones {
         width: 160%;
         margin-left: -30%;
         -webkit-box-pack: center;
@@ -5349,18 +5380,18 @@ font-family: 'Roboto', sans-serif;
         -webkit-flex-wrap: nowrap;
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap
-    }
+    }*/
 
-    .eve-iphone-center-img {
+  /*  .eve-iphone-center-img {
         width: 33%;
         margin-right: 16px;
         margin-left: 16px
-    }
+    }*/
 
-    .eve-logo-img {
+  /*  .eve-logo-img {
         width: 65%;
         margin-bottom: 40px
-    }
+    }*/
 
     .center-img {
         margin-top: 40px;
@@ -5379,15 +5410,15 @@ font-family: 'Roboto', sans-serif;
         max-width: 168%
     }
 
-    .teaser-bg {
+ /*   .teaser-bg {
         padding-right: 24px;
         padding-left: 24px
-    }
+    }*/
 
-    .teaser-img.eve-iphone {
+  /*  .teaser-img.eve-iphone {
         max-width: 105%
     }
-
+*/
     .skill-img {
         max-width: 100px
     }
@@ -5397,7 +5428,9 @@ font-family: 'Roboto', sans-serif;
     }
 
     .case-img-wine {
-        max-width: 90%
+        max-width: 100em;
+        height: 448px;
+          
     }
 
     .case-img-office {
@@ -5412,7 +5445,7 @@ font-family: 'Roboto', sans-serif;
         top: -61px
     }
 
-    .h2.utility-h2 {
+    /*.h2{
         font-size: 28px;
         line-height: 42px
     }
@@ -5420,7 +5453,7 @@ font-family: 'Roboto', sans-serif;
     .parsa-bish-hero-img {
         width: 95%;
         margin-top: -155px
-    }
+    }*/
 
     .nav-mobile-borders {
         display: none
@@ -5434,46 +5467,10 @@ font-family: 'Roboto', sans-serif;
         width: 40px
     }
 
-    .legal-content {
-        margin: 0
-    }
 
-    .legal-close {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        width: 51px;
-        height: 51px;
-        margin-top: -25px;
-        margin-right: -25px;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        border-radius: 50%;
-        background-color: #fff;
-        box-shadow: 3px 3px 25px 0 rgba(0,0,0,.07)
-    }
+   
 
-
-    .bish-prototype {
-        max-width: 280px;
-        min-width: 280px;
-        margin-top: 40px
-    }
-
-    .bish-video-crop {
-        width: 240px;
-        height: 159px;
-        margin-top: -5px
-    }
-
-    .bish-mac-bg {
-        max-width: 320px;
-        min-width: 320px
-    }
-
+   
     .case-img-destination {
         max-width: 90%
     }
@@ -5482,7 +5479,7 @@ font-family: 'Roboto', sans-serif;
     
 
 /* For desktop: */
-.col-1 {width: 8.33%;}
+/*.col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
 .col-4 {width: 33.33%;}
@@ -5493,7 +5490,7 @@ font-family: 'Roboto', sans-serif;
 .col-9 {width: 75%;}
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-12 {width: 100%;}*/
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -5532,11 +5529,11 @@ position: relative;
   clear: left;
 }
 
-@media (min-width: 1500px) {
+/*@media (min-width: 1500px) {
     .content-wrapper{
         width: 1870px;
     }
-}
+}*/
 
 .heading{
         margin-top: 0px;
