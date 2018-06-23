@@ -2907,7 +2907,7 @@ font-family: 'Open Sans', sans-serif;
 
 .section-intro {
     margin-bottom: 32px;
-    z-index: 1000;
+   /* z-index: 1000;*/
 }
 
 .section-intro.margin-bottom {
