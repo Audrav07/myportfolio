@@ -1040,6 +1040,8 @@ h3 {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+
 }
 .p-contact {
     display: block;
@@ -1048,7 +1050,7 @@ h3 {
     margin-left: auto;
     text-align: center;
 }
-.p.p-center-constraint.margin-top {
+.p.p-center-constraint {
     margin-top: 120px;
 }
 .p.p-center-constraint.p-contact {
@@ -1071,18 +1073,14 @@ h3 {
     font-weight: 500;
     text-align: center;
 }
-.p.p--legal {
+.p{
     display: block;
     max-width: 660px;
     margin-right: auto;
     margin-left: auto;
-}
-.p.p-center-utility {
     max-width: 450px;
     text-align: center;
-}
-.p.p-center-utility.p-small-width {
-    max-width: 450px;
+
 }
 .mountains-bg {
     margin-top: 40px;
