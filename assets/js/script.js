@@ -12,5 +12,18 @@ $(document).ready(function() {
     });
 });
         
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#home-top').fadeIn(); 
+        } else { 
+            $('#home-top').fadeOut(); 
+        } 
+    }); 
+    $('#home-top').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
 
       
