@@ -685,6 +685,11 @@ button, html input[type=button], input[type=reset] {
     width: 20vw;
     position: absolute;
 }
+
+.text-span-24{
+    margin-left: 300px;
+    background-color: transparent;
+}
 /*======================media===========================================*/
 
 @media only screen and (max-width: 1360px) {
@@ -1179,7 +1184,7 @@ h3 {
 .case-img-bg {
     height: 65%;
     text-align: center;
-    background-color: #ffefec;
+    background-color:#F6F4E5;
 }
 .rainbow-btn:hover {
     color: #fff;
