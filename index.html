@@ -5,42 +5,107 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<title>Audrey Portfolio</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Playfair+Display" rel="stylesheet">
-	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Signika:400,600" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link href="assets/css/styles.css" rel="stylesheet" type="text/css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js">
 	</script>
 </head>
 <body class="body">
 	<header class="top-bar" style="opacity: 1; transition: opacity 800ms ease-in, height 200ms;">
-		<a class="top-bar__logo pagetransition" href="#work">
-		<div class="top-bar__logo-text">
-			<span class="menu__link-text">Work</span>
+		<nav class="navbar">
+			<div class="navbar-strip">
+				<div class="navbar-container">
+					<div class="navbar-grid">
+						<div class="navbar-grid-col -left">
+							<div class="menu-icon" id="menu">
+								<span class="menu__line menu__line-left"></span> <span class="menu__line"></span> <span class="menu__line menu__line-right"></span>
+							</div>
+							<div class="nav">
+								<div class="nav__content">
+									<ul class="nav__list">
+										<li class="nav__list-item">
+											<a href="#">Home</a>
+										</li>
+										<li class="nav__list-item">
+											<a href="#work">Work</a>
+										</li>
+										<li class="nav__list-item">
+											<a href="#about">About</a>
+										</li>
+										<li class="nav__list-item">
+											<a href="#contact">Contact</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav><!-- <div class="navbar-backdrop" id="navbar-backdrop" style="opacity: 1;"></div>
+
+    <div class="navbar-menu" id="navbar-menu-main">
+    <div class="navbar-menu-fill" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+    <div class="navbar-menu-body">
+        <div class="navbar-menu-nav" data-cursor="hidden">
+            <div class="navbar-container">
+                <ul id="menu">
+                    <li><a class="navbar-menu-nav-item" href="#" style="opacity: 0;">
+                    <span>Home</span>
+                </a>
+            </li>
+                <li><a class="navbar-menu-nav-item" href="#work" style="opacity: 0;">
+                    <span>Work</span>
+                </a>
+            </li>
+            <li>
+                <a class="navbar-menu-nav-item" href="#about" style="opacity: 0;">
+                    <span>About</span>
+                </a>
+            </li>
+                <li><a class="navbar-menu-nav-item" href="#contact" style="opacity: 0;">
+                </a>
+            </li>
+            </ul>
+            </div> -->
+		<!-- </div> -->
+		<!--    
+</div>
+</div>
+</nav> -->
+		<!-- <a href="#" class="nav">
+<button class="burger" id="side-menu__burger">
+    <div class="burger__bar-one"></div>
+    
+    <div class="burger__bar-two"></div>
+    <div class="burger__bar-three"></div> -->
+		<!-- <i class="burger__bar">        
+    </i>
+    <i class="burger__bar">     
+    </i>
+    <i class="burger__bar"> 
+    </i> -->
+		<!-- </button>
+</a> -->
+		<!-- </div> -->
+		<div class="navbar-grid-col -right" style="margin-left: 70rem; margin-top: 10px;">
+			<a class="top-bar__say-hello" href="mailto:audrey.davis14@gmail.com">
+			<div class="say-hello__text">
+				Come Say Hi
+			</div><img src="assets/images/envelope.svg" style="width:22px;"></a>
 		</div>
-	</a> 
-		<a class="top-bar__logo pagetransition" href="#about">
-		<div class="top-bar__logo-text" style="margin-left: 5px;">
-			<span class="menu__link-text">About</span>
-		</div>
-		
-		<a class="top-bar__logo pagetransition" href="#" id="home-top">
-	<div class="top-bar__logo-text-home">
-			<span class="menu__link-text">Home</span>
-		</div>
-	</a> 
-		<a class="top-bar__say-hello hidden-small hidden-tiny inline-block" href="mailto:audrey.davis14@gmail.com" style="transform-style: preserve-3d; transition: transform 200ms; transform: translateX(0px) translateY(0px) translateZ(0px);">
-		<div class="say-hello__text">
-			Come Say Hi
-		</div><img src="assets/images/envelope.svg" style="width:22px;"></a>
 	</header>
-	<div class="side-bar-left hidden-small hidden-tiny" style="opacity: 1; transition: opacity 800ms ease-in, width 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);">
+	<div class="side-bar-left hidden-small hidden-tiny">
 		<h1 class="aside-title" style="visibility: inherit; opacity: 1;"><span class="aside-title__text">Audrey Davis</span></h1>
 		<div class="navigation-spacer hidden-small hidden-tiny" style="display: block; transition: opacity 200ms; opacity: 0;"></div>
 	</div>
 	<div class="side-bar-right hidden-small hidden-tiny" style="opacity: 1;">
 		<a class="social-icon-container inline-block" href="https://www.linkedin.com/in/audreykdavis/" target="_blank"><img src="assets/images/linkedin-in.svg" style="width:22px;"></a> <a class="social-icon-container inline-block" href="https://github.com/Audrav07" target="_blank"><img src="assets/images/github.svg" style="width:22px;"></a> <a class="social-icon-container inline-block" href="https://www.instagram.com/Audg007" target="_blank"><img src="assets/images/instagram.svg" style="width:22px;"></a>
 	</div>
-	<div class="bottom-bar hidden-small hidden-tiny" style="opacity: 1; transition: opacity 800ms ease-in, height 200ms;"></div>
+	<div class="bottom-bar hidden-small hidden-tiny" style="opacity: 1; transition: opacity 800ms ease-in, height 200ms;"></div><!-- <div class="nav-bar"> -->
+	<!-- </div> -->
 	<div class="content-wrapper" style="overflow: hidden;">
 		<div class="row">
 			<div class="col-xs-6">
@@ -53,7 +118,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section--default" style="opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px);">
+		<div class="section--default" style="opacity: 1;">
 			<div class="master-container home-vertical-height-adjust" data-aos="fade-up" data-aos-duration="3000">
 				<div class="section-intro" id="about">
 					<div class="section-intro__heading">
@@ -69,9 +134,9 @@
 					<div class="about-img-container"><img class="ui-image" src="assets/images/ui.jpg" style="width:533px;"></div>
 					<div class="about-content">
 						<div class="main-headline main-headline--offset">
-							<h1 class="main-headline__headline left-aligned" >I am a UI/UX front-end web developer living in the beautiful city of Denver, CO.</h1>
+							<h1 class="main-headline__headline left-aligned">I am a UI/UX front-end web developer living in the beautiful city of Denver, CO.</h1>
 							<div class="main-headline__separator left-aligned">
-							<!-- 	<div class="watercolor__separator"><img class="watercolor-stroke" src="assets/images/stroke%20copy.png"></div> -->
+								<!--    <div class="watercolor__separator"><img class="watercolor-stroke" src="assets/images/stroke%20copy.png"></div> -->
 							</div>
 						</div>
 						<p class="p-large"><span class="text-span-24">I am a lover of all things fluffy and the great outdoors. I specialize in UI/UX frontend development creating efficient and immersive designs that compliment companies user experience.</span></p>
@@ -79,13 +144,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="section--default" style="opacity: 1;">
+		<div class="section--default" style="opacity: 1; padding-top: 70px;">
 			<img class="mountains-bg hidden-medium hidden-small" src="assets/images/mountain.jpeg">
 			<div class="master-container home-vertical-height-adjust" data-aos="fade-up" data-aos-duration="3000">
 				<div class="section-intro whatido" id="what-i-do">
 					<div class="main-headline">
 						<h2 class="main-headline__headline">Skills</h2>
-						<div class="main-headline__separator" style="margin-top: -40px;">
+						<div class="main-headline__separator" style="margin-top: -10px;">
 							<!-- <div class="watercolor__separator"><img class="watercolor-stroke" src="assets/images/stroke%20copy.png"></div> -->
 						</div>
 					</div>
@@ -154,7 +219,7 @@
 						</div>
 					</div>
 					<div class="case-container" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-offset="300">
-						<div class="case-img-container" >
+						<div class="case-img-container">
 							<div class="case-img-bg"><img class="case-img-wine" sizes="(max-width: 767px) 100vw, (max-width: 991px) 79vw, 77vw" src="assets/images/laptop.png" style="margin-left: -250px;"></div>
 						</div>
 						<div class="case-content-container">
@@ -183,7 +248,7 @@
 							<div class="type-header">
 								UI/UX, Front-End
 							</div>
-							<div class="main-headline clearfix" >
+							<div class="main-headline clearfix">
 								<h2 class="main-headline__headline right-aligned" style="margin-top: -20px;">OfficeSpace:<br>
 								Client Portal</h2>
 								<div class="main-headline__separator right-aligned"></div>
@@ -241,10 +306,10 @@
 			</div>
 			<div class="section--default" style="opacity: 1; margin-top: 10px;">
 				<div class="master-container flexbox-center" data-aos="fade-up" data-aos-duration="3000">
-					<div class="p p-center-constraint">
+					<div class="p p-center-constraint" id="contact">
 						Find out more <!--    <div class="contact-email-underline" style="opacity: 1;width: 100%;transition: opacity 200s, width 700s;"></div> -->
 					</div>
-					<div class="main-headline__separator left-aligned" style="margin-top:10px;">
+					<div class="main-headline__separator">
 						<!-- <div class="watercolor__separator"><img class="watercolor-stroke" id="watercolor" src="assets/images/stroke%20copy.png"></div> -->
 					</div><a class="contact-email-container inline-block" href="mailto:audrey.davis14@gmail.com">
 					<div class="p-large p--contact" style="margin-top: 70px;">
@@ -261,13 +326,18 @@
 				</div>
 			</div>
 		</div>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+		</script> 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 		</script> 
-		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+		</script> 
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
 		</script> 
 		<script src="./assets/js/script.js">
 		</script> <!-- <a href='https://www.freepik.com/free-vector/laptop-and-mobile-phone-design_919220.htm'>Designed by Freepik</a> -->
-		 <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+		 <!--  <div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+		 
 	</div>
 </body>
 </html>
