@@ -687,8 +687,9 @@ button, html input[type=button], input[type=reset] {
 }
 
 .text-span-24{
-    margin-left: 300px;
+ 
     background-color: transparent;
+
 }
 /*======================media===========================================*/
 
@@ -1513,7 +1514,7 @@ h3 {
         position: absolute;
         margin-top: -20px;
         width: 40vw;
-        margin-left: 200px;
+        margin-left: -20px;
     }
 }
 /*======================media===========================================*/
@@ -1961,6 +1962,12 @@ h3 {
 
 @media (max-width: 575px) {
 
+    .section-default{
+        top: -30px;
+    }
+    .case-container{
+        margin-top: 80px;
+    }
     .top-bar__logo-text-home {
         margin-left: -30px;
         margin-top: 20px;
