@@ -1366,6 +1366,14 @@ h3 {
     margin-right: -340px;
     float: right;
 }
+.case-img-carl {
+    top: -40px;
+    left: 100px;
+    width: 145%;
+    max-width: 150%;
+    margin-right: -55px;
+    float: right;
+}
 .case-img-wine {
     top: -40px;
     right: 500px;
@@ -1373,6 +1381,15 @@ h3 {
     max-width: 150%;
     margin-right: -455px;
     float: right;
+}
+.case-img-camp {
+    position: relative;
+    top: -13px;
+    width: 100%;
+    min-width: 100%;
+    margin-left: -13%;
+    float: left;
+    left: 111px;
 }
 .case-img-office {
     position: relative;
