@@ -416,32 +416,63 @@
               <div class="col-6 col-md-3 sortable-item p-2 interior">
                 <div class="hoverbox rounded overflow-hidden" data-zanim-xs='{"animation":"zoom-in","delay":0.2}'>
                   <img class="w-100 fit-cover" src="pages/assets/img/gallery/vailgateway-landing.png" alt="" />
+
+
+
+                  <div id="lightboxOverlay" class="lightboxOverlay" style="width: 2048px; height: 3260px; display: block;"></div>
+                  <div class="lightbox" id="lightbox" style="top: 1600px; left: 0px;">
+                    <div class="lb-outerContainer" style="width: 559px; height: 833px;">
+                      <div class="lb-container">
+                        <img class="lb-image" src="pages/assets/img/gallery/vailgateway-landing.png" style=
+                        "width: 559px; height: 833px;">
+                        <div class="lb-nav" style="">
+                          <a class="lb-prev" href="" style=""></a><a class="lb-next" href="" style=
+                          ""></a>
+                        </div>
+                        <div class="lb-loader" style="opacity: 1; display: none;">
+                          <a class="lb-cancel"></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="lb-dataContainer" style="width: 559px;">
+                      <div class="lb-data">
+                        <div class="lb-details">
+                          <span class="lb-caption" style="">caption</span><span class="lb-number"
+                          style="">Image 1 of 6</span>
+                        </div>
+                        <div class="lb-closeContainer">
+                          <a class="lb-close"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   
+
                   <div class="hoverbox-content bg-dark d-flex align-items-center justify-content-center text-center">
                     <div class="px-4">
                       <h5 class="text-white">Vail Gateway</h5>
                       <div class="col-sm-4 col-lg-3 mb-4">
-                      <a href="pages/assets/img/gallery/vailgateway-landing.png" data-lightbox="data-lightbox" data-title="Image caption">
+                      <a href="pages/assets/img/gallery/vailgateway-landing.png" data-lightbox="true" data-title="Image caption">
                         <img src="pages/assets/img/gallery/vailgateway-landing.png"/>
                       </a> 
                     </div>  
                     <div class="col-sm-4 col-lg-3 mb-4">        
-                      <a href="pages/assets/img/gallery/vailgateway-docs.png" data-lightbox="gallery-01" data-title="Image caption">
+                      <a href="pages/assets/img/gallery/vailgateway-docs.png" data-lightbox="vailgateway-docs" data-title="Image caption">
                         <img src="pages/assets/img/gallery/vailgateway-docs.png"/>
                       </a>  
                       </div>
                       <div class="col-sm-4 col-lg-3 mb-4">
-                      <a href="pages/assets/img/gallery/vailgatewaydocs.png" data-lightbox="gallery-01" data-title="Image caption">
+                      <a href="pages/assets/img/gallery/vailgatewaydocs.png" data-lightbox="vailgatewaydocs" data-title="Image caption">
                         <img src="pages/assets/img/gallery/vailgatewaydocs.png"/>
                       </a>    
                       </div>
                       <div class="col-sm-4 col-lg-3 mb-4">
-                      <a href="pages/assets/img/gallery/vailgateway-reports.png" data-lightbox="gallery-01" data-title="Image caption">
+                      <a href="pages/assets/img/gallery/vailgateway-reports.png" data-lightbox="vailgateway-reports" data-title="Image caption">
                         <img src="pages/assets/img/gallery/vailgateway-reports.png"/>
                       </a>  
                       </div> 
                       <div class="col-sm-4 col-lg-3 mb-4">
-                      <a href="pages/assets/img/gallery/vailgateway-report.png" data-lightbox="gallery-01" data-title="Image caption">
+                      <a href="pages/assets/img/gallery/vailgateway-report.png" data-lightbox="vailgateway-report" data-title="Image caption">
                         <img src="pages/assets/img/gallery/vailgateway-report.png"/>
                       </a> 
                       </div>
@@ -449,12 +480,101 @@
                   </div>
                 </div>
               </div> 
-            </div>
+
+              <div class="col-6 col-md-3 sortable-item p-2 interior">
+                <div class="hoverbox rounded overflow-hidden" data-zanim-xs='{"animation":"zoom-in","delay":0.2}'>
+                  <img class="w-100 fit-cover" src="pages/assets/img/gallery/vailgateway-landing.png" alt="" />
+
+
+              <a href="pages/assets/img/gallery/vailgateway-landing.png" data-toggle="lightbox" data-gallery="hidden-images" class="col-4">
+                <img src="pages/assets/img/gallery/vailgateway-landing.png" class="img-fluid">
+            </a>
+            <!-- elements not showing, use data-remote -->
+<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="page/assets/img/gallery/vailgateway-docs.png" data-title="Hidden item 1"></div>
+<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="page/assets/img/gallery/vailgatewaydocs.png" data-title="Hidden item 2"></div>
+<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="page/assets/img/gallery/vailgateway-reports.png" data-title="Hidden item 3"></div>
+<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="page/assets/img/gallery/vailgateway-report.png" data-title="Hidden item 4"></div>
+</div>
+</div>            
+</div>
           </div>
  
         <!-- end of .container-->
 
       <!-- </section> -->
+
+           <!-- ============================================-->
+      <!-- <section> begin ============================-->
+        <section class="py-lg-7" id="page-portfolio">
+
+          <div class="container">
+            <div class="row mb-5 mb-lg-7">
+              <div class="col-lg-6">
+                <h1 class="text-underline d-inline fs-4 fs-md-5">portfolio</h1>
+                <p class="mt-3">The following layout is made using isotope, a jQuery plugin which allows you to create multi-column, dynamic grid layouts. The first script out there that allows you a complete gap-free layout.</p>
+              </div>
+            </div>
+            <div class="sortable min-vh-100" data-options='{"layoutMode":"packery"}'>
+              <div class="row no-gutters sortable-container sortable-container-gutter-fix" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                <div class="col-6 col-md-3 sortable-item p-2 interior">
+                  <div class="hoverbox rounded overflow-hidden" data-zanim-xs='{"animation":"zoom-in"}'>
+                    <img class="w-100" src="page/assets/img/gallery/vailgateway-landing.png" alt="" />
+                    <div class="hoverbox-content bg-dark d-flex align-items-center justify-content-center text-center">
+                      <div class="px-4">
+                        <h5 class="text-white">Next gen web interface design</h5>
+                        <a class="btn btn-outline-light btn-xs mt-3" href="page-casestudy.html">learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="col-6 col-md-3 sortable-item p-2 photography" href="page/assets/img/gallery/vailgateway-landing.png" data-lightbox="image" data-title="my caption">
+                  <img class="rounded w-100 fit-cover" src="page/assets/img/gallery/vailgateway-landing.png" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' />
+                </a>
+                <a class="col-6 col-md-3 sortable-item p-2 photography" href="page/assets/img/gallery/vailgateway-docs.png" data-lightbox="image" data-title="my caption">
+                  <img class="rounded w-100 fit-cover" src="page/assets/img/gallery/vailgateway-docs.png" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.7}' />
+                </a>
+                <a class="col-6 col-md-3 sortable-item p-2 studio" href="page/assets/img/gallery/vailgateway-reports.png" data-lightbox="image" data-title="my caption">
+                  <img class="rounded w-100 fit-cover" src="page/assets/img/gallery/vailgateway-reports.png" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' />
+                </a>
+                <a class="col-6 col-md-3 sortable-item p-2 studio" href="page/assets/img/gallery/vailgateway-report.png" data-lightbox="image" data-title="my caption">
+                  <img class="rounded w-100 fit-cover" src="page/assets/img/gallery/vailgateway-report.png" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' />
+                </a>
+                <div class="col-6 col-md-3 sortable-item p-2 interior">
+                  <div class="hoverbox rounded overflow-hidden" data-zanim-xs='{"animation":"zoom-in","delay":0.2}'>
+                    <img class="w-100 fit-cover" src="page/assets/img/gallery/vailgateway-report.png" alt="" />
+                    <div class="hoverbox-content bg-dark d-flex align-items-center justify-content-center text-center">
+                      <div class="px-4">
+                        <h5 class="text-white">Next gen web interface design</h5>
+                        <a class="btn btn-outline-light btn-xs mt-3" href="page-casestudy.html">learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 sortable-item p-2 illustration">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <div class="owl-carousel owl-theme owl-dots-inner owl-theme-white embed-responsive-item" data-options='{"items":1,"autoplay":true,"loop":true,"animateOut":"fadeOut","nav":true}' data-zanim-xs='{"animation":"zoom-in","delay":0.8}'>
+                      <img class="w-100 fit-cover rounded" src="page/assets/img/gallery/vailgateway-landing.png" alt="" />
+                      <img class="w-100 fit-cover rounded" src="page/assets/img/gallery/vailgateway-docs.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <a class="col-6 col-md-3 sortable-item p-2 interior" href="page/assets/img/gallery/vailgateway-reports.png" data-lightbox="image" data-title="my caption">
+                  <img class="rounded w-100 fit-cover" src="page/assets/img/gallery/vailgateway-reports.png" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.3}' />
+                </a>
+                <a class="col-6 col-md-3 sortable-item p-2 photography" href="page-casestudy.html">
+                  <img class="rounded w-100 fit-cover" src="assets/img/gallery/08.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' />
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end of .container-->
+  
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
       <!-- <section> close ============================-->
       <!-- ============================================-->
   
